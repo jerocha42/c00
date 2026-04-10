@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jerocha- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jerocha- <jerocha-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/07 17:24:13 by jerocha-          #+#    #+#             */
-/*   Updated: 2026/04/07 17:24:16 by jerocha-         ###   ########.fr       */
+/*   Updated: 2026/04/09 22:13:34 by jerocha-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdlib.h>
 
 void	ft_print_comb(void);
 
@@ -61,8 +60,11 @@ void	ft_print_comb(void)
 	}
 }
 
-int	main(void)
-{
-	ft_print_comb();
-	return (0);
-}
+/*
+** int	main(void)
+** {
+** 	ft_print_comb();
+** 	return (0);
+** }
+** 
+*/
